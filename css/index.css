@@ -367,3 +367,39 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+.mainsection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.topics {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  overflow: wrap;
+  border-bottom: 1px dotted black;
+  margin-bottom: 5%;
+}
+
+.maindiv {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.lasttext {
+  margin: 5%;
+}
+
+.container-about-page {
+  margin: 5%;
+  border-bottom: 1px dotted black;
+}
+
+button {
+  margin: 5%;
+  width: 40%;
+}
